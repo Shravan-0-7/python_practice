@@ -17,4 +17,6 @@ match (opr):
 
     case '/':
         print((f"division of {a} & {b} is: ",a/b))
-        
+
+    case _:
+        print("invalid option")
