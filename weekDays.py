@@ -12,5 +12,7 @@ elif day ==5:
     print("Thursday")
 elif day ==6:
     print("Friday")
-else:
+elif day==7:
     print("saturday")
+else:
+    print("Enter valid number")
