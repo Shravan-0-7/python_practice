@@ -1,16 +1,16 @@
 day = int(input("enter any number between 1-7: "))
 
-if day==0:
+if day==1:
     print("Sunday")
-elif day ==1:
-    print("Monday")
 elif day ==2:
-    print("Tuesday")
+    print("Monday")
 elif day ==3:
-    print("Wednsday")
+    print("Tuesday")
 elif day ==4:
-    print("Thursday")
+    print("Wednsday")
 elif day ==5:
+    print("Thursday")
+elif day ==6:
     print("Friday")
 else:
     print("saturday")
