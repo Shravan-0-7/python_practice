@@ -54,7 +54,7 @@ def atm_system():
             break
 
         except Exception as e:
-            print("\nUnexpected Error:", e)
+            print("\nUnexpected Error: ", e)
 
         else:
             print("Operation completed successfully.")
