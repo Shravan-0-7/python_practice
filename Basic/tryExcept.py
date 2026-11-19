@@ -16,7 +16,7 @@ def atm_system():
             choice = int(input("\nEnter your choice: "))
 
             if choice == 1:
-                print("\nYour current balance is:", balance)
+                print("\nYour current balance is: ", balance)
 
             elif choice == 2:
                 amount = float(input("Enter deposit amount: "))
